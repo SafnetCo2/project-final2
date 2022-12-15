@@ -293,12 +293,12 @@ nav{
     width: 15rem;
 
     border: 1px solid black;
-    border-radius: .5rem;
+    border-radius: 1rem;
     text-align: center;
-    font-size: .8rem;
+    font-size: 1.3rem;
     /* position: relative;
     transition: .5s; */
-    margin-top: 1rem;
+    margin-bottom: 1rem;
     margin: 1rem;
 }
 .card>figure>a>h3{
@@ -362,7 +362,7 @@ img.card-img{
 
 
 }
-.card-btn{
+a#order.card-btn{
     width: 7rem;
     background-color: #000;
     color: #fff;
@@ -374,8 +374,8 @@ img.card-img{
     margin-bottom: 1rem;
 
 }
-#order1  {
-    width: 7rem;
+a#order1,.card-btn  {
+    width: 10rem;
     background-color: #000;
     color: #fff;
     border-radius: 25px;
@@ -387,7 +387,7 @@ img.card-img{
     text-decoration: none;
 
 }
-#order2 {
+#order2 .card-btn {
     width: 7rem;
     background-color: #000;
     color: #fff;
